@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 const AuthImagePattern = ({ title, subtitle }) => {
   return (
-    <div >
+    <div className="hidden min-[1050px]:block min-h-[550px]:block" >
      
 
     <motion.h1 
